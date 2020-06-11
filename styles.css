@@ -3,6 +3,145 @@
     padding: 0;
 }
 
-.title {
+hr {
+    height: 2px;
+    background-color:#000;
+}
+
+.vl {
+    border-left: 2px solid #000;
+    height: auto;
+  }
+
+/* ******** Header ******** */
+.title img{
+    width: 55%;
+    margin: 10px 395px;
+}
+
+.subtitle {
+    margin: 10px 0 0 200px;
+}
+
+/* ******** Body ******** */
+.container {
+    /* border: 1px solid #ff0000; */
+    margin: 10px 200px;
+    display: flex;
+}
+
+/* ******** Article ******** */
+.left {
+    /* border: 1px solid #00ff00; */
+    margin: 0 5px;
+    display: grid;
+    grid-template-columns: 180px;
+}
+
+.left__title {
+    margin: -5px 0 8px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.left__subtitle  {
+    margin: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.left__titles {
+    margin: 8px 0 8px;
+    text-align: center;
+}
+
+.left__paragraph {
+    margin: 10px 3px;
+    text-align: center;
+}
+
+.left_hr {
+    margin: 0 50px;
+}
+
+.left__paragraph--text {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+/* ******** BigImg ******** */
+
+.bigImg {
+    /* border: 1px solid #0000ff; */
+    display: block;
+    margin: 0 5px;
+}
+
+.bigImg__image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bigImg__paragraph {
+    margin: 10px 0;
+}
+
+/* ******** Columns ******** */
+
+.columns__title {
+    margin: 10px 5px;
+    font-style: italic;
+}
+
+.columns__paragraph {
+    columns: 4;
+    margin: 5px;
+    text-align: justify;
+}
+
+.columns__subtitle {
+    margin: 10px;
+    text-align: center;
+}
+
+.columns__subtitle hr {
+    margin: 0 30px;
+}
+.columns__subtitle h6 {
+    margin-top: 10px ;
+}
+/* ******** ImgRight ******** */
+
+h3 {
+    margin: 10px 0 15px 5px;
+    font-style: italic;
+    font-weight: 550;
+}
+
+.imgRight {
+    /* border: 1px solid #ff7b00; */
+    columns: 2;
+    margin: 5px;
+    text-align: justify;
+}
+
+.imgRight__container {
+    display: grid;
+    float: right;
+}
+
+.imgRight__subtitle {
+    /* border: 1px solid #ff0000; */
+    margin: 20px 35px;
+    width: 50px;
+    float: left;
+}
+
+.imgRight__subtitle h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.imgRight__image {
+    width: 100%;
 }
