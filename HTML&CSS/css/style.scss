@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baskervill Old Fase';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .bookData, .bookIntro, .bookContent {
+      margin: 0 auto;
+      width: 90%;
+  }
+
+  .bookContent ul {
+      list-style: none;
+  }
+
+  @import "mediaQuery.scss";
